@@ -1,0 +1,9 @@
+node_modules
+output
+./package-lock.json
+Automation_Report.html
+test-output
+.project
+mochawesome-report
+auto-generated
+.DS_Store

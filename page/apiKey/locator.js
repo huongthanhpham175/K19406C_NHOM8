@@ -1,0 +1,15 @@
+module.exports = {
+    profileButton: "(//div[@class='mat-ripple mat-menu-ripple']//parent::button)[1]",
+    apiKeyMenuButton: "//*[text()='Api keys']",
+    createApiKeyButton: "//span[text()='Tạo API key']//parent::button",
+    apiNameField: "//input[@formcontrolname='name']",
+    submitCreateApiButton: "//span[text()=' Tạo và xem API Key ']//parent::button",
+    submitEditApiButton: "//span[text()=' Lưu thay đổi ']//parent::button",
+    doneButton: "//span[text()='Xong']//parent::button",
+    editButton: "//*[contains(@class,'mat-icon') and text()='edit']",
+    deleteButton: "//*[contains(@class,'mat-icon') and text()='delete']",
+    acceptDeleteButton: "//*[text()=' Đồng ý ']",
+    successTitle: "//h4[text()='API Key đã được khởi tạo thành công']",
+    updatedName: "(//div[@class='custom-name']//child::b)[1]",
+    alertDeleteSuccess: "//div[@role='alertdialog']",
+}
